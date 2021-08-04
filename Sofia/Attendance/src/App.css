@@ -1,0 +1,87 @@
+.attendance_root {
+  padding: 15px;
+}
+.attendance_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.attendance_search_root {
+  width: 273px;
+}
+.attendance_datepicker_root {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  border: 1px solid #e0e0e0;
+  align-items: center;
+  padding: 0 10px;
+  height: 56px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+.attendance_datepicker_root:hover {
+  border: 2px solid #466bff;
+}
+.attendance_datepicker {
+  position: absolute;
+  top: 54px;
+  left: -1px;
+  z-index: 2000;
+  border: 1px solid #e0e0e0;
+  display: none;
+}
+.attendance_datepicker_root:hover .attendance_datepicker {
+  display: block;
+}
+.attendance_override {
+  height: 56px;
+  /* width: 273px; */
+  background-color: #466bff !important;
+}
+.attendance_search .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #466bff;
+}
+.attendance_search .MuiFormLabel-root.Mui-focused {
+  color: #466bff;
+}
+.attendance_mid {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e0e0e0;
+  gap: 8px;
+  padding: 5px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.att_select {
+  align-self: center;
+}
+.attendance_info {
+  display: flex;
+  gap: 5px;
+}
+.att_green {
+  color: #259b24;
+}
+.att_orange {
+  color: #f39c12;
+}
+.att_red {
+  color: #ea4335;
+}
+.att_blue {
+  color: #466bff;
+}
+.att_purple {
+  color: #d705f1d9;
+}
+.att_brown {
+  color: #611414c4;
+}
+.att_yellow {
+  color: #ffd700;
+}
